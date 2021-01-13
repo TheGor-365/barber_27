@@ -130,7 +130,7 @@ post '/visit' do
     @color
   ]
 
-  erb "#{@username} #{@phone} #{@datetime} #{@barber} #{@color}"
+  erb "<h4>Thanks, your signed!</h4>"
 end
 
 get '/showusers' do
